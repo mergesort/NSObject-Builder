@@ -10,6 +10,6 @@
 
 @interface NSObject (Builder)
 
-+ (instancetype)buildObject:(id (^) (id builder))withBlock;
++ (instancetype)buildObject:(void (^) (id builder))withBlock;
 
 @end
