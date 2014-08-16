@@ -19,7 +19,6 @@ But now we have something cleaner, like this:
     User const *user = [User buildObject:^User *(User *builder) {
         builder.username = @"joe"
         builder.email = @"joe@notgonnatellyou.com"
-        return builder;
     }];
     NSString *password = @"supersecret"
     
